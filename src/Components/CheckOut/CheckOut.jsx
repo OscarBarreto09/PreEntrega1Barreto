@@ -94,7 +94,7 @@ export const CheckOut = () =>{
             ))}
 
           <div>
-           <label className="lab-check">Nombre:</label>
+           <label className="lab-check">Nombre y apellido:</label>
              <input className="input-check" type="text" value={nombre} onChange={(e) => setNombre(e.target.value)}
              />
           </div>
