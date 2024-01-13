@@ -64,13 +64,13 @@ export const CheckOut = () =>{
         removeProduct();
        })
       .catch((error)=>{
-        console.log('No se pudo crear la orden', error);
+        console.log('La orden no se pudo crear', error);
         setError('Error en la orden');
       });
      })
      .catch((error)=>{
-      console.log('No se puede actualizar el stock', error);
-      setError('No se actualizo el stock');
+      console.log('El stock no se puede actualizar', error);
+      setError('El stock no se actualizo');
      });    
     
      setNombre('');
@@ -126,7 +126,7 @@ export const CheckOut = () =>{
 
           {error && <p>{error}</p>}
           {ordenId && (
-            <p> ¡Gracias por tu compra ! Tu numero de seguimiento es: <br/> {''} {ordenId} {''} <br/></p>
+            <p> ¡Gracias por tu compra, disfruta tu compra ! Tu numero de seguimiento es: <br/> {''} {ordenId} {''} <br/></p>
           )}
            <div>
             <button type="submit"> Enviar </button>
