@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import {getFirestore, collection, getDocs, where, query,} from 'firebase/firestore';
 import ItemList from '../ItemList/ItemList'
-
+import './ItemListContainer.css'
 
 
 const ItemListContainer = ({greeting}) => {
@@ -30,7 +30,7 @@ const ItemListContainer = ({greeting}) => {
 
   return (
     <div className='container'>
-      <div className='row'>
+      <div className=' greeting row'>
 
         <h1>{greeting}</h1>
         <ItemList item={item}/>

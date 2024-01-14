@@ -17,9 +17,9 @@ const ItemDetail = ({item}) => {
 
 
   return (
-    <div className='row'>
-        <div className='col-md-4 iifset-md-4'>
-        <img src={item.img} className='img-fluid' alt={item.title} />
+    <div className='border border-2 row mt-5'>
+        <div className='col-md-12'>
+        <img src={item.img} className='img-fluid mt-3' alt={item.title} />
         <h4>{item.title} </h4>
         <p>{item.categoryId}{item.description}</p>
         <p> $ {item.price} USD </p>
