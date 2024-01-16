@@ -1,8 +1,32 @@
-# React + Vite
+# Nombre del Proyecto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto: E-Commerce de Venta de Automóviles
 
-Currently, two official plugins are available:
+Este proyecto es un sistema de comercio electrónico diseñado para la venta de automóviles. Proporciona a los usuarios una plataforma intuitiva y segura para explorar, comparar y comprar una amplia variedad de vehículos. La interfaz de usuario está centrada en brindar una experiencia de compra atractiva, permitiendo a los usuarios filtrar por marcas y características específicas de los automóviles.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Requisitos Previos
+
+Asegúrate de tener [Node.js](https://nodejs.org/) instalado en tu máquina.
+
+## Instalación
+
+
+
+
+
+1. Instala las dependencias:
+
+npm install
+
+npm install firebase
+
+npm install react-bootstrap bootstrap
+
+
+
+Para ejecutar la aplicación en modo de desarrollo, utiliza el siguiente comando:
+
+npm run dev
+
+
+
